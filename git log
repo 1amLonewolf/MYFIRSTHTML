@@ -1,0 +1,143 @@
+[33mcommit 0189220574c29fdb37b9364d3cd91bc5e3b69ece[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Marsden <iamlonewolf023@gmail.com>
+Date:   Fri Mar 7 23:27:51 2025 +0300
+
+    changed webpage to website on my first webpage
+
+[1mdiff --git a/firstwebpage.html b/firstwebsite.html[m
+[1msimilarity index 100%[m
+[1mrename from firstwebpage.html[m
+[1mrename to firstwebsite.html[m
+
+[33mcommit 8c85f783d47d18e7b232b4b3be3dc9c77599bb93[m
+Author: Marsden <iamlonewolf023@gmail.com>
+Date:   Fri Mar 7 23:20:42 2025 +0300
+
+    updated text to free range
+
+[1mdiff --git a/firstwebpage.html b/firstwebpage.html[m
+[1mindex 2f4b3ba..5d43118 100644[m
+[1m--- a/firstwebpage.html[m
+[1m+++ b/firstwebpage.html[m
+[36m@@ -5,6 +5,7 @@[m
+  </head>[m
+  <body>[m
+     <h1>Welcome to My Webpage!</h1>[m
+[31m-    <p>This is my very first HTML webpage. It's simple but a great start!    </p>[m
+[32m+[m[32m    <p>This is my very first HTML webpage. It's simple but a great start![m[41m [m
+[32m+[m[32mI am hopeful of more to come,Happy coding.   </p>[m
+  </body>[m
+ </html>[m
+
+[33mcommit 4e059f056cefc67d81e5b59b71e6dc516dcfa50a[m
+Author: Marsden <iamlonewolf023@gmail.com>
+Date:   Fri Mar 7 23:11:42 2025 +0300
+
+    first commit - committing all files to the repository
+
+[1mdiff --git a/desktop.ini b/desktop.ini[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ab17096[m
+[1m--- /dev/null[m
+[1m+++ b/desktop.ini[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m[ViewState][m
+[32m+[m[32mMode=[m
+[32m+[m[32mVid=[m
+[32m+[m[32mFolderType=Documents[m
+[1mdiff --git a/firstwebpage.html b/firstwebpage.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2f4b3ba[m
+[1m--- /dev/null[m
+[1m+++ b/firstwebpage.html[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m[32m <head>[m
+[32m+[m[32m    <title>My First Webpage</title>[m
+[32m+[m[32m </head>[m
+[32m+[m[32m <body>[m
+[32m+[m[32m    <h1>Welcome to My Webpage!</h1>[m
+[32m+[m[32m    <p>This is my very first HTML webpage. It's simple but a great start!    </p>[m
+[32m+[m[32m </body>[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/samplewebpage.html b/samplewebpage.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..feee94e[m
+[1m--- /dev/null[m
+[1m+++ b/samplewebpage.html[m
+[36m@@ -0,0 +1,74 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>My First Webpage with More Content</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m
+[32m+[m[32m    <h1>Welcome to My Webpage!</h1>[m
+[32m+[m[32m    <p>This webpage now has more examples of HTML content for you to explore!</p>[m
+[32m+[m
+[32m+[m[32m    <h2>My Favorite Things</h2>[m
+[32m+[m[32m    <p>Here are a few of my favorite things listed in different ways:</p>[m
+[32m+[m
+[32m+[m[32m    <h3>Unordered List (Bullet Points)</h3>[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m        <li>Coffee</li>[m
+[32m+[m[32m        <li>Coding</li>[m
+[32m+[m[32m        <li>Sunshine</li>[m
+[32m+[m[32m        <li>Learning</li>[m
+[32m+[m[32m    </ul>[m
+[32m+[m
+[32m+[m[32m    <h3>Ordered List (Numbered)</h3>[m
+[32m+[m[32m    <ol>[m
+[32m+[m[32m        <li>Wake up</li>[m
+[32m+[m[32m        <li>Drink coffee</li>[m
+[32m+[m[32m        <li>Write code</li>[m
+[32m+[m[32m        <li>Learn something new</li>[m
+[32m+[m[32m    </ol>[m
+[32m+[m
+[32m+[m[32m    <h3>Table Example</h3>[m
+[32m+[m[32m    <table>[m
+[32m+[m[32m        <thead>[m
+[32m+[m[32m            <tr>[m
+[32m+[m[32m                <th>Name</th>[m
+[32m+[m[32m                <th>Age</th>[m
+[32m+[m[32m                <th>Occupation</th>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m        </thead>[m
+[32m+[m[32m        <tbody>[m
+[32m+[m[32m            <tr>[m
+[32m+[m[32m                <td>Alice</td>[m
+[32m+[m[32m                <td>30</td>[m
+[32m+[m[32m                <td>Web Developer</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr>[m
+[32m+[m[32m                <td>Bob</td>[m
+[32m+[m[32m                <td>25</td>[m
+[32m+[m[32m                <td>Data Scientist</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr>[m
+[32m+[m[32m                <td>Charlie</td>[m
+[32m+[m[32m                <td>35</td>[m
+[32m+[m[32m                <td>Project Manager</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m        </tbody>[m
+[32m+[m[32m    </table>[m
+[32m+[m
+[32m+[m[32m    <h3>Simple Form</h3>[m
+[32m+[m[32m    <form action="#" method="post">[m
+[32m+[m[32m        <label for="name">Name:</label><br>[m
+[32m+[m[32m        <input type="text" id="name" name="name" value=""><br>[m
+[32m+[m[32m        <label for="email">Email:</label><br>[m
+[32m+[m[32m        <input type="email" id="email" name="email" value=""><br><br>[m
+[32m+[m[32m        <input type="submit" value="Submit">[m
+[32m+[m[32m    </form>[m
+[32m+[m
+[32m+[m[32m    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Earth_Eastern_Hemisphere.jpg/240px-Earth_Eastern_Hemisphere.jpg" alt="Image of the Earth" width="200">[m
+[32m+[m
+[32m+[m[32m    <p><a href="https://www.example.com">Visit Example Website</a></p>[m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
